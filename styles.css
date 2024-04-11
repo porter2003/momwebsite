@@ -1,0 +1,59 @@
+body {
+    margin: 0; 
+    padding: 0; 
+    /* background-color: rgb(244, 197, 234); */
+    background-color: rgb(252, 168, 199);
+    color: rgb(0, 0, 1);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.topBanner{
+    background-color: rgb(250, 114, 189);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    padding: 20px;
+    margin: 0;
+    z-index: 999;
+    border-bottom: 2px solid black;
+}
+.mainstuff{
+    margin-top: 105px;
+    width: 60%;
+}
+p{  
+    margin: 15px;
+    line-height: 1.5;
+    font-size: 18px;
+}
+li{ 
+    margin: 15px;
+    font-size: 20px;
+    line-height: 1.8;
+}
+a{  
+    margin: 15px;
+    font-size: 25px;
+}
+.no-bullets {
+    list-style: none;
+    /*padding-left: 0;  optional: removes default left padding */
+  }
+.right-image {
+    position: absolute;
+    top: 130px;
+    right: 30px;
+    width: 35%; /* Adjust width as needed */
+    height: auto; /* Ensures aspect ratio is maintained */
+    z-index: 1; /* Set a lower z-index */
+
+}
+.contact{
+    position: relative;
+    margin: 0 auto; /* This centers the element horizontally */
+    width: 25%; /* Adjust the width as needed */
+    text-align: center;
+    border: solid black;
+}
